@@ -54,7 +54,7 @@
     <meta property="og:image" content="assets/images/logo/logo.png" />
     <meta property="og:url" content="URL-do-seu-site-ou-página" />
     <meta property="og:type" content="website" />
-    <title>WORKSHOP GPS 2.O - A Inovação da Gestão</title>
+    <title>Cliente Oculto - </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -111,8 +111,8 @@
     <section class="about-section padding-tb padding-b shape-img" style="padding-bottom: 30px;">
         <style>
             .highlight-box {
-                background: rgba(240, 240, 240, 0.8); /* tom de cinza claro com leve transparência */
-                backdrop-filter: blur(5px); /* efeito de desfoque */
+                background: rgba(240, 240, 240, 0.8);
+                backdrop-filter: blur(5px);
                 border-radius: 12px;
                 padding: 20px;
                 max-width: 700px;
@@ -120,9 +120,50 @@
             }
     
             .highlight-box h4 {
-                font-size: 1.1rem; /* um pouco menor que o padrão */
+                font-size: 1.1rem;
                 font-weight: normal;
                 margin: 0;
+            }
+    
+            .alert-list {
+                display: grid;
+                grid-template-columns: 1fr; /* mobile padrão */
+                gap: 20px;
+                list-style: none;
+                padding: 0;
+                margin: 30px 0;
+            }
+    
+            @media (min-width: 768px) {
+                .alert-list {
+                    grid-template-columns: repeat(2, 1fr); /* 2 colunas no desktop */
+                    grid-auto-rows: 1fr; /* força todos a mesma altura */
+                }
+            }
+    
+            .alert-box {
+                background-color: #e7d99d;
+                border-radius: 10px;
+                padding: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 15px;
+                box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+                color: #000;
+                height: 100%; /* estica para preencher o grid row */
+            }
+    
+            .alert-box .icon {
+                color: #000;
+                font-size: 1.5rem;
+            }
+    
+            .alert-box .medium-text {
+                font-size: 1.1rem;
+                font-weight: 600;
+                color: #000;
+                text-align: left;
             }
         </style>
     
@@ -136,6 +177,7 @@
                         <h3><b>Empresas que não analisam sua própria experiência de <font color="#CAB660">atendimento</font> podem estar afastando clientes sem perceber.</b></h3><br>
                         <span>Pequenos deslizes na abordagem da equipe, na comunicação ou na experiência do cliente podem resultar em:</span>
                     </div>
+    
                     <div class="section-wrapper text-center">
                         <ul class="alert-list">
                             <li>
@@ -163,15 +205,16 @@
                                 </div>
                             </li>
                         </ul>
-    
+    <br>
                         <div class="bottom-content d-flex flex-column align-items-center">
                             <div class="highlight-box">
                                 <h4 class="centered-text">
                                     A solução? Ter um olhar externo, estratégico e imparcial para identificar o que precisa ser ajustado.
                                 </h4>
-                            </div>
+                            </div><br>
                             <h4>Nosso serviço de <font color="#CAB660">Cliente Oculto</font> vai além de uma avaliação: ele transforma seu atendimento e seu posicionamento para aumentar suas vendas!</h4>
-                         <br>   <div class="register-button">
+                            <br>
+                            <div class="register-button">
                                 <a href="#investimento" class="lab-btn scroll-button">
                                     <span><font color="#000000"><b>SOLUCIONAR AGORA!</b></font></span>
                                 </a>
@@ -184,6 +227,7 @@
             </div>
         </div>
     </section>
+    
     <section class="services-section padding-tb" style="background-color: #f9f9f9;">
         <style>
             .services-section {
