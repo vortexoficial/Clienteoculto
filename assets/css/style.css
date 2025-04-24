@@ -5674,3 +5674,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+.alert-box .medium-text {
+  font-size: 1.1rem; /* aumentado */
+  font-weight: 600;  /* mais grossa */
+  text-align: left;
+}
